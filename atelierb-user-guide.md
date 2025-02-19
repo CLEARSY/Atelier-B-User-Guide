@@ -552,6 +552,7 @@ AtelierB file contains resources that are defined at installation and project le
 
 ## Proof Obligation Generator
 
+- `ATB*ATB*Proof_Obligations_Generator_NG`: use the non-legacy proof obligation generator (Boolean, default: TRUE)
 - `ATB*POG*Generate_EventB_Non_Divergence_PO`: generation of Event-B variant proof obligations. The clause VARIANT is mandatory (Boolean, default: FALSE)
 - `ATB*POG*Generate_EventB_Coverage_PO`: generation of Event-B coverage proof obligations (Boolean, default: FALSE)
 - `ATB*POG*Generate_EventB_Feasibility_PO`: generation of Event-B feasibility proof obligations (Boolean, default: FALSE)
