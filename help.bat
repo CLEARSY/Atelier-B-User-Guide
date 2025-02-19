@@ -1,0 +1,1 @@
+ pandoc %1.md -o %1%.pdf --pdf-engine=xelatex --from markdown --template "template.tex" --include-before-body="signature.tex" --listings --toc -N --variable toc-own-page=1 --variable titlepage=1
