@@ -3,9 +3,13 @@ name: Docker Image CI
 
 on:
   push:
+    branches:
+      - '*'  # Push events to all branches
     paths:
       - 'Dockerfile'
   pull_request:
+    branches:
+      - '*'  # Push events to all branches
     paths:
       - 'Dockerfile'
 
