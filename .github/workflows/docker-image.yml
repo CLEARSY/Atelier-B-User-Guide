@@ -34,7 +34,7 @@ jobs:
         docker run --rm -v $(pwd):/app pandoc-latex-publisher:latest /app/publishpdf.sh
 
     - name: Upload PDF
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: atelierb-user-guide.pdf
         path: atelierb-user-guide.pdf
