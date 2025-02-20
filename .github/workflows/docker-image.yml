@@ -7,11 +7,15 @@ on:
       - '*'  # Push events to all branches
     paths:
       - 'Dockerfile'
+      - '.github/workflows/docker-image.yml'
+      - 'atelierb-user-guide.md'
   pull_request:
     branches:
       - '*'  # Push events to all branches
     paths:
       - 'Dockerfile'
+      - '.github/workflows/docker-image.yml'
+      - 'atelierb-user-guide.md'
 
 jobs:
 
